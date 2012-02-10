@@ -13,6 +13,7 @@ begin
     gem.authors = ["Adrian Madrid"]
     gem.platform          = "jruby"
     gem.rubyforge_project = "hazelcast-jars"
+    gem.files.include "lib/*.jar"
     Jeweler::GemcutterTasks.new
   end
   Jeweler::RubygemsDotOrgTasks.new

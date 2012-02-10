@@ -1,3 +1,5 @@
+raise "hazelcast-jars only runs on JRuby. Sorry!" unless (RUBY_PLATFORM =~ /java/)
+
 module Hazelcast
   class Jars
 
@@ -19,8 +21,7 @@ module Hazelcast
       end
 
       def all
-        server
-        client
+        [server, client]
       end
     end
   end
