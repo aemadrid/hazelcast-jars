@@ -19,6 +19,9 @@ tmtags
 ## RVM
 .rvmrc
 
+## RBENV
+.rbenv*
+
 ## PROJECT::GENERAL
 coverage
 rdoc
