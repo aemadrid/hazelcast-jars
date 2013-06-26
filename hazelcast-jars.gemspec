@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = "hazelcast-jars"
-  s.version = "2.5.1"
+  s.version = "3.0.SNAPSHOT"
   s.platform = "jruby"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.authors = ["Adrian Madrid"]
-  s.date = "2013-05-03"
+  s.date = "2013-06-26"
   s.description = "Something to make my life easier."
   s.email = "aemadrid@gmail.com"
   s.extra_rdoc_files = [
@@ -24,10 +24,14 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "VERSION_EXT",
     "hazelcast-jars.gemspec",
-    "lib/hazelcast-2.5.1.jar",
-    "lib/hazelcast-client-2.5.1.jar",
-    "lib/hazelcast-jars.rb"
+    "lib/hazelcast-3.0-SNAPSHOT.jar",
+    "lib/hazelcast-all-3.0-SNAPSHOT.jar",
+    "lib/hazelcast-client-3.0-SNAPSHOT.jar",
+    "lib/hazelcast-jars.rb",
+    "lib/hazelcast-jars/hazelcast-jars.rb",
+    "lib/hazelcast-jars/version.rb"
   ]
   s.homepage = "http://github.com/aemadrid/hazelcast-jars"
   s.licenses = ["MIT"]
