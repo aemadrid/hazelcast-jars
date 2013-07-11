@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.authors = ["Adrian Madrid"]
-  s.date = "2013-06-26"
+  s.date = "2013-07-11"
   s.description = "Something to make my life easier."
   s.email = "aemadrid@gmail.com"
   s.extra_rdoc_files = [
@@ -37,7 +37,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubyforge_project = "hazelcast-jars"
-  s.rubygems_version = "1.8.24"
+  s.rubygems_version = "1.8.23"
   s.summary = "Utility gem to carry the latest Hazelcast jars."
 
   if s.respond_to? :specification_version then
