@@ -24,7 +24,6 @@ You can easily require the jars now like so:
 Hazelcast::Jars.client
 Hazelcast::Jars.server
 Hazelcast::Jars.all
-
 ````
 
 ## Contributing

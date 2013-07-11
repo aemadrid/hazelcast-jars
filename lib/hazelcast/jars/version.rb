@@ -1,5 +1,5 @@
 module Hazelcast
-  module Jars
+  class Jars
 
     LIB_PATH = File.expand_path(File.dirname(File.dirname(File.dirname(__FILE__)))) unless defined?(LIB_PATH)
     ROOT_PATH = File.dirname(LIB_PATH) unless defined?(ROOT_PATH)
