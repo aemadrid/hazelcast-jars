@@ -1,33 +1,27 @@
-## MAC OS
 .DS_Store
-
-## TEXTMATE
-*.tmproj
-tmtags
-
-## EMACS
-*~
-\#*
-.\#*
-
-## VIM
-*.swp
-
-## IDEA
+*.gem
+*.rbc
+.bundle
+.config
+.yardoc
+Gemfile.lock
+InstalledFiles
+_yardoc
+coverage
+doc/
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
 .idea/*
-
-## RVM
 .rvmrc
-
-## RBENV
 .rbenv*
 .ruby-version
-
-## PROJECT::GENERAL
 coverage
 rdoc
 pkg
 Gemfile.lock
-
-## PROJECT::SPECIFIC
 tmp

@@ -1,1 +1,1 @@
-require File.expand_path(File.dirname(__FILE__) + '/../lib/hazelcast-jars/hazelcast-jars')
+require File.expand_path(File.dirname(__FILE__) + '/../lib/hazelcast/jars')
