@@ -1,6 +1,7 @@
 # Hazelcast::Jars
 
 All the necessary Hazelcast jars in one place for easy access from JRuby.
+Current version is: Hazelcast-3.1.4
 
 ## Installation
 
