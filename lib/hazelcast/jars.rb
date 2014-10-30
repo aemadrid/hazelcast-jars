@@ -5,15 +5,15 @@ module Hazelcast
     class << self
 
       def client
-        require "hazelcast/jars/hazelcast-client-#{full_version}.jar"
+        require "hazelcast/jars/hazelcast-client-#{version}.jar"
       end
 
       def server
-        require "hazelcast/jars/hazelcast-#{full_version}.jar"
+        require "hazelcast/jars/hazelcast-#{version}.jar"
       end
 
       def all
-        require "hazelcast/jars/hazelcast-all-#{full_version}.jar"
+        require "hazelcast/jars/hazelcast-all-#{version}.jar"
       end
 
     end

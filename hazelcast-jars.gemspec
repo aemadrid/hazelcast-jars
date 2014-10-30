@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{All the necessary Hazelcast jars in one place}
   spec.homepage      = 'http://github.com/aemadrid/hazelcast-jars'
   spec.license       = 'MIT'
+  spec.platform      = 'jruby'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
